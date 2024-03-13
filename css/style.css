@@ -147,3 +147,24 @@
 .card-body:hover .more {
     display: block;
 }
+
+
+/* cta */
+.card-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(90deg, transparent, black);
+    flex-direction: column;
+}
+
+.rounded-30 {
+    border-radius: 30px;
+    overflow: hidden;
+}
