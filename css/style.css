@@ -169,19 +169,43 @@
     overflow: hidden;
 }
 
-.perform{
+.perform {
     position: relative;
     z-index: 100;
 }
 
-.bird{
+.bird {
     position: absolute;
     top: -100px;
     right: -150px;
 }
 
-.mandala{
+.mandala {
     position: absolute;
     top: -400px;
     right: 0;
+}
+
+.left-mandala {
+    position: absolute;
+    top: -100px;
+    left: -60px;
+    width: 300px;
+}
+
+.card.position-relative .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: linear-gradient(transparent, black);
+}
+
+.rounded-20 {
+    border-radius: 20px;
+    overflow: hidden;
 }
