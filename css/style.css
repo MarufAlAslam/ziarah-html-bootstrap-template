@@ -3,7 +3,8 @@
     font-style: normal;
 }
 
-body, html{
+body,
+html {
     overflow-x: hidden;
 }
 
@@ -214,9 +215,17 @@ body, html{
     overflow: hidden;
 }
 
-.discover-mandala{
+.discover-mandala {
     position: absolute;
     top: -200px;
     right: -250px;
     z-index: 0;
+}
+
+.footer {
+    background: url("../img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: #1a1c1c;
 }
