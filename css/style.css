@@ -275,6 +275,30 @@ html {
     background-repeat: no-repeat;
 }
 
+.services {
+    background: url("../img/services-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-pills {
+    gap: 15px;
+}
+
+.nav-pills .nav-link {
+    color: white;
+    font-size: 14px !important;
+    background-color: transparent !important;
+    border-radius: 0;
+    padding: 0;
+}
+
+.nav-pills .nav-link.active {
+    color: #ff9f22 !important;
+    border-bottom: 2px solid #ff9f22 !important;
+}
+
 /* about us page */
 
 @media screen and (max-width: 1024px) {
