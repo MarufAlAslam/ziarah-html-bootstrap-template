@@ -229,3 +229,158 @@ html {
     background-position: top;
     background-color: #1a1c1c;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .mt-200 {
+        margin-top: 100px;
+    }
+
+    .bird {
+        width: 200px;
+        right: -70px;
+        top: -75px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 85%;
+    }
+
+    .search-date {
+        min-width: 145px;
+    }
+
+    .fs-38 {
+        font-size: 28px;
+    }
+
+    .fs-46 {
+        font-size: 36px;
+    }
+
+    .fs-32 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .perform .fs-38 {
+        font-size: 20px;
+    }
+
+    .perform button.btn.btn-orange.text-uppercase.py-3.px-5.mt-3,
+    .start button {
+        padding: 5px 10px !important;
+    }
+
+    .start img.img-fluid.card-img-top {
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    button.btn-outline-orange.btn.fs-13.me-3 {
+        margin-right: 0 !important;
+    }
+
+    .top-menu {
+        flex-direction: column;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .top-menu.active {
+        height: auto;
+        transition: 0.5s;
+    }
+
+    .fs-46 {
+        font-size: 30px;
+    }
+
+    .fs-32 {
+        font-size: 16px;
+    }
+
+    .hero {
+        background-size: cover;
+    }
+
+    .search-form.mt-3 form {
+        flex-wrap: wrap;
+    }
+
+    .search-date {
+        min-width: 100%;
+        padding: 15px;
+    }
+
+    .time-stay {
+        min-width: 100%;
+        min-height: 60px;
+        background: #eceff0;
+    }
+
+    button.btn.text-uppercase.btn-orange.rounded-0.px-5.fs-15.h-60 {
+        width: 100%;
+    }
+
+    .mobile-column {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start !important;
+    }
+
+    .perform .card-img-top {
+        height: 250px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .perform br {
+        display: none;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .rounded-30 {
+        border-radius: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    ul.text-end.list-unstyled.m-0.p-0.d-flex.flex-column.gap-3 {
+        justify-content: flex-start !important;
+        align-items: flex-start;
+        margin-top: 20px !important;
+    }
+
+    .slide.p-3.slick-slide {
+        padding: 0 !important;
+    }
+
+    .start img.img-fluid.card-img-top {
+        height: 350px;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .start br {
+        display: none;
+    }
+
+    .copyright{
+        margin-top: 30px;
+    }
+}

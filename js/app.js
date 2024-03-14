@@ -26,3 +26,7 @@ $('.slider').slick({
         }
     ]
 });
+
+$('.menubtn').click(function () {
+    $('.top-menu').toggleClass('active');
+})
