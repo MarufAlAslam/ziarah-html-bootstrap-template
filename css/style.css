@@ -73,6 +73,14 @@ html {
     font-size: 46px;
 }
 
+.fs-60 {
+    font-size: 60px;
+}
+
+.pb-200 {
+    padding-bottom: 200px;
+}
+
 /* hero */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/hero.png");
@@ -231,6 +239,44 @@ html {
 }
 
 
+
+/* about us page */
+.about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url("../img/about-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.welcome {
+    background: linear-gradient(transparent, white), url("../img/layer-bg.png");
+    background-size: 60%;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.cards .hov-card {
+    cursor: pointer;
+}
+
+.cards .card:hover {
+    box-shadow: 20px 20px 20px 0 #ffdcaf;
+    transition: 0.5s;
+    background-color: #f2f2f2;
+    background-image: url("../img/mandala.png");
+    background-size: contain;
+    background-position: -50%, -50%;
+    background-repeat: no-repeat;
+}
+
+/* about us page */
+
 @media screen and (max-width: 1024px) {
     .mt-200 {
         margin-top: 100px;
@@ -380,7 +426,7 @@ html {
         display: none;
     }
 
-    .copyright{
+    .copyright {
         margin-top: 30px;
     }
 }
