@@ -73,6 +73,10 @@ html {
     font-size: 46px;
 }
 
+.fs-48 {
+    font-size: 48px;
+}
+
 .fs-60 {
     font-size: 60px;
 }
@@ -299,6 +303,26 @@ html {
     border-bottom: 2px solid #ff9f22 !important;
 }
 
+.pt-300 {
+    padding-top: 300px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.py-200 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.experience {
+    background: url("../img/content-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
 /* about us page */
 
 @media screen and (max-width: 1024px) {
@@ -310,6 +334,14 @@ html {
         width: 200px;
         right: -70px;
         top: -75px;
+    }
+
+    .fs-60 {
+        font-size: 40px;
+    }
+
+    .fs-48 {
+        font-size: 38px;
     }
 }
 
